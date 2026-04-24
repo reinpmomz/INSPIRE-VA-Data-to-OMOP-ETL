@@ -1,0 +1,5 @@
+sourceCode,sourceName,sourceFrequency,sourceAutoAssignedConceptIds,ADD_INFO:row_number,ADD_INFO:dataset,ADD_INFO:variable_name,ADD_INFO:variable_description,matchScore,mappingStatus,equivalence,statusSetBy,statusSetOn,conceptId,conceptName,domainId,mappingType,comment,createdBy,createdOn,assignedReviewer
+95,Chronic hepatitis,1,,122,VA_INSPIRE_merged_final.csv,cause_of_death_new,Cause of death,1.00,APPROVED,EQUAL,Reinp,1774060953094,200763,Chronic hepatitis,Condition,MAPS_TO,,<auto>,1774060837940,
+94,Viral Hepatitis,9,,121,VA_INSPIRE_merged_final.csv,cause_of_death_new,Cause of death,1.00,APPROVED,EQUAL,Reinp,1774060956277,4291005,Viral hepatitis,Condition,MAPS_TO,,<auto>,1774060838477,
+93,P59.9 neonatal jaundice,7,,120,VA_INSPIRE_merged_final.csv,cause_of_death_new,Cause of death,0.64,APPROVED,EQUAL,Reinp,1774060958259,435656,Neonatal jaundice,Condition,MAPS_TO,,<auto>,1774060838545,
+92,K59.9 Functional Intestinal disorder,29,,119,VA_INSPIRE_merged_final.csv,cause_of_death_new,Cause of death,0.50,APPROVED,EQUAL,Reinp,1774060963142,196151,Functional disorder of intestine,Condition,MAPS_TO,,<auto>,1774060839877,

@@ -1,0 +1,6 @@
+sourceCode,sourceName,sourceFrequency,sourceAutoAssignedConceptIds,ADD_INFO:dataset,ADD_INFO:variable_name,ADD_INFO:variable_description,matchScore,mappingStatus,equivalence,statusSetBy,statusSetOn,conceptId,conceptName,domainId,mappingType,comment,createdBy,createdOn,assignedReviewer
+2,primary,5859,115,VA_INSPIRE_merged_final.csv,education_level,Highest Level of Education,1.00,APPROVED,EQUAL,Reinp,1772209481064,44800023,Educated to primary school level,Observation,MAPS_TO,,Reinp,1772209468880,
+3,secondary,2363,116,VA_INSPIRE_merged_final.csv,education_level,Highest Level of Education,1.00,APPROVED,EQUAL,Reinp,1772209707271,43021808,Educated to high school level,Observation,MAPS_TO,,Reinp,1772209702139,
+7,The Gambia,1,118,VA_INSPIRE_merged_final.csv,country,Country,1.00,APPROVED,EQUAL,Reinp,1772209090800,4329867,The Gambia,Geography,MAPS_TO,,<auto>,1772209068255,
+1,no education,12537,114,VA_INSPIRE_merged_final.csv,education_level,Highest Level of Education,0.73,APPROVED,EQUAL,Reinp,1772209858938,45880050,No schooling,Meas Value,MAPS_TO,,Reinp,1772209825328,
+4,higher education,823,117,VA_INSPIRE_merged_final.csv,education_level,Highest Level of Education,1.00,APPROVED,EQUAL,Reinp,1772209787860,4059166,Higher education,Observation,MAPS_TO,,<auto>,1772209069902,

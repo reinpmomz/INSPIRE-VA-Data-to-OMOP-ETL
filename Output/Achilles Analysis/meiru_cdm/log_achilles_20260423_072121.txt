@@ -1,0 +1,399 @@
+2026-04-23 07:21:21	[Main thread]	INFO	Achilles	achilles	Performing database characterization.
+2026-04-23 07:21:21	[Main thread]	INFO	Achilles	achilles	CDM Version 5.4 passed as parameter.
+2026-04-23 07:21:21	[Main thread]	INFO	Achilles	achilles	Beginning single-threaded execution
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Running 194 analyses.
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 0 (Source name) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 0 (0.052663 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 1 (Number of persons) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1 (0.027750 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 2 (Number of persons by gender) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2 (0.029426 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 3 (Number of persons by year of birth) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 3 (0.028334 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 4 (Number of persons by race) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 4 (0.032750 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 5 (Number of persons by ethnicity) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 5 (0.044474 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 10 (Number of all persons by year of birth by gender) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 10 (0.042519 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 11 (Number of non-deceased persons by year of birth by gender) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 11 (0.029644 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 12 (Number of persons by race and ethnicity) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 12 (0.035995 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 101 (Number of persons by age, with age at first observation period) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 101 (0.047963 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 102 (Number of persons by gender by age, with age at first observation period) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 102 (0.038737 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 103 (Distribution of age at first observation period) -- START
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 103 (0.056516 secs)
+2026-04-23 07:21:26	[Main thread]	INFO	Achilles	achilles	Analysis 104 (Distribution of age at first observation period by gender) -- START
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 104 (0.151249 secs)
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	Analysis 105 (Length of observation (days) of first observation period) -- START
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 105 (0.157187 secs)
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	Analysis 106 (Length of observation (days) of first observation period by gender) -- START
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 106 (0.104804 secs)
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	Analysis 107 (Length of observation (days) of first observation period by age decile) -- START
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 107 (0.149050 secs)
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	Analysis 108 (Number of persons by length of observation period, in 30d increments) -- START
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 108 (0.060077 secs)
+2026-04-23 07:21:27	[Main thread]	INFO	Achilles	achilles	Analysis 109 (Number of persons with continuous observation in each year) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 109 (0.521595 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 110 (Number of persons with continuous observation in each month) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 110 (0.244739 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 111 (Number of persons by observation period start month) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 111 (0.045420 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 112 (Number of persons by observation period end month) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 112 (0.039555 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 113 (Number of persons by number of observation periods) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 113 (0.032717 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 116 (Number of persons with at least one day of observation in each year by gender and age decile) -- START
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 116 (0.161916 secs)
+2026-04-23 07:21:28	[Main thread]	INFO	Achilles	achilles	Analysis 117 (Number of persons with at least one day of observation in each month) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 117 (36.723974 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 119 (Number of observation period records by period_type_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 119 (0.025417 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 200 (Number of persons with at least one visit occurrence, by visit_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 200 (0.028568 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 201 (Number of visit occurrence records, by visit_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 201 (0.030641 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 202 (Number of persons by visit occurrence start month, by visit_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 202 (0.033270 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 203 (Number of distinct visit occurrence concepts per person) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 203 (0.067857 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 204 (Number of persons with at least one visit occurrence, by visit_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 204 (0.046137 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 206 (Distribution of age by visit_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 206 (0.076743 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 207 (Number of visit records with invalid person_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 207 (0.030758 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 209 (Number of visit records with invalid care_site_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 209 (0.027069 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 210 (Number of visit_occurrence records outside a valid observation period) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 210 (0.028287 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 212 (Number of persons with at least one visit occurrence, by calendar year by gender by age decile) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 212 (0.033084 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 213 (Distribution of length of stay by visit_concept_id) -- START
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 213 (0.081237 secs)
+2026-04-23 07:22:05	[Main thread]	INFO	Achilles	achilles	Analysis 220 (Number of visit occurrence records by visit occurrence start month) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 220 (0.047842 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 221 (Number of persons by visit start year) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 221 (0.044512 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 225 (Number of visit_occurrence records by visit_source_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 225 (0.028742 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 226 (Number of records by domain by visit_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 226 (0.038111 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 300 (Number of providers) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 300 (0.026004 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 301 (Number of providers by specialty concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 301 (0.027063 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 303 (Number of providers records by specialty_concept_id and visit_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 303 (0.026530 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 325 (Number of provider records by specialty_source_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 325 (0.029924 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 400 (Number of persons with at least one condition occurrence, by condition_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 400 (0.022889 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 401 (Number of condition occurrence records, by condition_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 401 (0.021461 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 402 (Number of persons by condition occurrence start month, by condition_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 402 (0.022495 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 403 (Number of distinct condition occurrence concepts per person) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 403 (0.054573 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 404 (Number of persons with at least one condition occurrence, by condition_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 404 (0.022034 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 405 (Number of condition occurrence records, by condition_concept_id by condition_type_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 405 (0.023014 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 406 (Distribution of age by condition_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 406 (0.078407 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 414 (Number of condition occurrence records, by condition_status_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 414 (0.027033 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 415 (Number of condition occurrence records, by condition_type_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 415 (0.022394 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 416 (Number of condition occurrence records, by condition_status_concept_id, condition_type_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 416 (0.024094 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 420 (Number of condition occurrence records by condition occurrence start month) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 420 (0.024138 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 425 (Number of condition_occurrence records by condition_source_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 425 (0.023544 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 500 (Number of persons with death, by cause_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 500 (0.032616 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 501 (Number of records of death, by cause_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 501 (0.028792 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 502 (Number of persons by death month) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 502 (0.033249 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 504 (Number of persons with a death, by calendar year by gender by age decile) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 504 (0.036015 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 505 (Number of death records, by death_type_concept_id) -- START
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 505 (0.031061 secs)
+2026-04-23 07:22:06	[Main thread]	INFO	Achilles	achilles	Analysis 506 (Distribution of age at death by gender) -- START
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 506 (0.084115 secs)
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	Analysis 511 (Distribution of time from death to last condition) -- START
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 511 (0.038497 secs)
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	Analysis 512 (Distribution of time from death to last drug) -- START
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 512 (0.056099 secs)
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	Analysis 513 (Distribution of time from death to last visit) -- START
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 513 (0.067474 secs)
+2026-04-23 07:22:07	[Main thread]	INFO	Achilles	achilles	Analysis 514 (Distribution of time from death to last procedure) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 514 (1.170559 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 515 (Distribution of time from death to last observation) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 515 (0.137520 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 525 (Number of death records by cause_source_concept_id) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 525 (0.057678 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 600 (Number of persons with at least one procedure occurrence, by procedure_concept_id) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 600 (0.054524 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 601 (Number of procedure occurrence records, by procedure_concept_id) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 601 (0.054671 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 602 (Number of persons by procedure occurrence start month, by procedure_concept_id) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 602 (0.051690 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 603 (Number of distinct procedure occurrence concepts per person) -- START
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 603 (0.121387 secs)
+2026-04-23 07:22:08	[Main thread]	INFO	Achilles	achilles	Analysis 604 (Number of persons with at least one procedure occurrence, by procedure_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 604 (0.058612 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 605 (Number of procedure occurrence records, by procedure_concept_id by procedure_type_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 605 (0.058643 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 606 (Distribution of age by procedure_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 606 (0.178847 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 620 (Number of procedure occurrence records  by procedure occurrence start month) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 620 (0.047217 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 625 (Number of procedure_occurrence records by procedure_source_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 625 (0.049093 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 630 (Number of procedure_occurrence records inside a valid observation period) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 630 (0.056953 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 691 (Percentage of total persons that have at least x procedures) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 691 (0.052316 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 700 (Number of persons with at least one drug exposure, by drug_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 700 (0.055858 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 701 (Number of drug exposure records, by drug_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 701 (0.057885 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 702 (Number of persons by drug exposure start month, by drug_concept_id) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 702 (0.058054 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 703 (Number of distinct drug exposure concepts per person) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 703 (0.134111 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 704 (Number of persons with at least one drug exposure, by drug_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 704 (0.058125 secs)
+2026-04-23 07:22:09	[Main thread]	INFO	Achilles	achilles	Analysis 705 (Number of drug exposure records, by drug_concept_id by drug_type_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 705 (0.049978 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 706 (Distribution of age by drug_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 706 (0.187789 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 715 (Distribution of days_supply by drug_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 715 (0.108288 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 716 (Distribution of refills by drug_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 716 (0.112775 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 717 (Distribution of quantity by drug_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 717 (0.131669 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 720 (Number of drug exposure records  by drug exposure start month) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 720 (0.058782 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 725 (Number of drug_exposure records by drug_source_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 725 (0.063039 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 791 (Percentage of total persons that have at least x drug exposures) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 791 (0.045473 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 800 (Number of persons with at least one observation occurrence, by observation_concept_id) -- START
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 800 (0.078379 secs)
+2026-04-23 07:22:10	[Main thread]	INFO	Achilles	achilles	Analysis 801 (Number of observation occurrence records, by observation_concept_id) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 801 (0.068271 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 802 (Number of persons by observation occurrence start month, by observation_concept_id) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 802 (0.082087 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 803 (Number of distinct observation occurrence concepts per person) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 803 (0.139278 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 804 (Number of persons with at least one observation occurrence, by observation_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 804 (0.096162 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 805 (Number of observation occurrence records, by observation_concept_id by observation_type_concept_id) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 805 (0.064188 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 806 (Distribution of age by observation_concept_id) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 806 (0.341853 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 807 (Number of observation occurrence records, by observation_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 807 (0.057376 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 814 (Number of observation records with no value (numeric, string, or concept)) -- START
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 814 (0.048671 secs)
+2026-04-23 07:22:11	[Main thread]	INFO	Achilles	achilles	Analysis 815 (Distribution of numeric values, by observation_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 815 (9.220843 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 820 (Number of observation records  by observation start month) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 820 (0.064226 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 822 (Number of observation records, by observation_concept_id and value_as_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 822 (0.054394 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 823 (Number of observation records, by observation_concept_id and qualifier_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 823 (0.072125 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 825 (Number of observation records by observation_source_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 825 (0.059568 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 826 (Number of observation records by value_as_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 826 (0.056814 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 827 (Number of observation records by unit_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 827 (0.057403 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 891 (Percentage of total persons that have at least x observations) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 891 (0.061652 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 900 (Number of persons with at least one drug era, by drug_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 900 (0.049975 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 901 (Number of drug era records, by drug_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 901 (0.048748 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 902 (Number of persons by drug era start month, by drug_concept_id) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 902 (0.044694 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 903 (Number of distinct drug era concepts per person) -- START
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 903 (0.093734 secs)
+2026-04-23 07:22:21	[Main thread]	INFO	Achilles	achilles	Analysis 904 (Number of persons with at least one drug era, by drug_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 904 (0.045826 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 906 (Distribution of age by drug_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 906 (0.156497 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 907 (Distribution of drug era length, by drug_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 907 (0.100255 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 920 (Number of drug era records by drug era start month) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 920 (0.042730 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1000 (Number of persons with at least one condition era, by condition_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1000 (0.040434 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1001 (Number of condition era records, by condition_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1001 (0.043611 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1002 (Number of persons by condition era start month, by condition_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1002 (0.047323 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1003 (Number of distinct condition era concepts per person) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1003 (0.107991 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1004 (Number of persons with at least one condition era, by condition_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1004 (0.045742 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1006 (Distribution of age by condition_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1006 (0.166461 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1007 (Distribution of condition era length, by condition_concept_id) -- START
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1007 (0.102585 secs)
+2026-04-23 07:22:22	[Main thread]	INFO	Achilles	achilles	Analysis 1020 (Number of condition era records by condition era start month) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1020 (0.047404 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1100 (Number of persons by location 3-digit zip) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1100 (0.051407 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1101 (Number of persons by location state) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1101 (0.050631 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1102 (Number of care sites by location 3-digit zip) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1102 (0.049323 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1103 (Number of care sites by location state) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1103 (0.047171 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1200 (Number of persons by place of service) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1200 (0.047962 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1201 (Number of visits by place of service) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1201 (0.049964 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1202 (Number of care sites by place of service) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1202 (0.050066 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1203 (Number of visits by place of service discharge type) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1203 (0.047920 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1300 (Number of persons with at least one visit detail, by visit_detail_concept_id) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1300 (0.054454 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1301 (Number of visit detail records, by visit_detail_concept_id) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1301 (0.054721 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1302 (Number of persons by visit detail start month, by visit_detail_concept_id) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1302 (0.058383 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1303 (Number of distinct visit detail concepts per person) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1303 (0.121733 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1304 (Number of persons with at least one visit detail, by visit_detail_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1304 (0.062872 secs)
+2026-04-23 07:22:23	[Main thread]	INFO	Achilles	achilles	Analysis 1306 (Distribution of age by visit_detail_concept_id) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1306 (0.170881 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1312 (Number of persons with at least one visit detail, by calendar year by gender by age decile) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1312 (0.063879 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1313 (Distribution of length of stay by visit_detail_concept_id) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1313 (0.127886 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1320 (Number of visit detail records by visit detail start month) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1320 (0.054268 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1321 (Number of persons by visit start year) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1321 (0.053880 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1325 (Number of visit_detail records by visit_detail_source_concept_id) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1325 (0.050364 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1326 (Number of records by domain by visit_detail_concept_id) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1326 (0.054174 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1406 (Length of payer plan (days) of first payer plan period by gender) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1406 (0.091972 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1407 (Length of payer plan (days) of first payer plan period by age decile) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1407 (0.099764 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1408 (Number of persons by length of payer plan period, in 30d increments) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1408 (0.044988 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1409 (Number of persons with continuous payer plan in each year) -- START
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1409 (0.109144 secs)
+2026-04-23 07:22:24	[Main thread]	INFO	Achilles	achilles	Analysis 1410 (Number of persons with continuous payer plan in each month) -- START
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1410 (0.098853 secs)
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	Analysis 1411 (Number of persons by payer plan period start month) -- START
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1411 (0.047020 secs)
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	Analysis 1412 (Number of persons by payer plan period end month) -- START
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1412 (0.041636 secs)
+2026-04-23 07:22:25	[Main thread]	INFO	Achilles	achilles	Analysis 1413 (Number of persons by number of payer plan periods) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1413 (1.190342 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1425 (Number of payer_plan_period records by payer_source_concept_id) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1425 (0.044710 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1800 (Number of persons with at least one measurement occurrence, by measurement_concept_id) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1800 (0.051252 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1801 (Number of measurement occurrence records, by measurement_concept_id) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1801 (0.047187 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1802 (Number of persons by measurement occurrence start month, by measurement_concept_id) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1802 (0.044334 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1803 (Number of distinct mesurement occurrence concepts per person) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1803 (0.126058 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1804 (Number of persons with at least one mesurement  occurrence, by measurement_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1804 (0.059950 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1805 (Number of measurement occurrence records, by measurement_concept_id by measurement_type_concept_id) -- START
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1805 (0.054583 secs)
+2026-04-23 07:22:26	[Main thread]	INFO	Achilles	achilles	Analysis 1806 (Distribution of age by measurement_concept_id) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1806 (0.175786 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1807 (Number of measurement occurrence records, by measurement_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1807 (0.046497 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1811 (Number of measurement records with a valid value (with a mapped, non-null value_as_number)) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1811 (0.047907 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1814 (Number of measurement records with no value (numeric, string, or concept)) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1814 (0.051841 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1815 (Distribution of numeric values, by measurement_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1815 (0.217944 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1816 (Distribution of low range, by measurement_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1816 (0.219075 secs)
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	Analysis 1817 (Distribution of high range, by measurement_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:27	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1817 (0.265280 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1818 (Number of measurement records below/within/above normal range, by measurement_concept_id and unit_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1818 (0.112147 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1819 (Number of measurement records, by measurement_concept_id, with a valid value (with a mapped, non-null value_as_number)) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1819 (0.050588 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1820 (Number of measurement records  by measurement start month) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1820 (0.045660 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1821 (Number of measurement records with no numeric value) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1821 (0.049489 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1822 (Number of measurement records, by measurement_concept_id and value_as_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1822 (0.044873 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1823 (Number of measurement records, by measurement_concept_id and operator_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1823 (0.042667 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1825 (Number of measurement records by measurement_source_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1825 (0.044335 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1826 (Number of measurement records by value_as_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1826 (0.043298 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1827 (Number of measurement records by unit_concept_id) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1827 (0.047389 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1891 (Percentage of total persons that have at least x measurements) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1891 (0.041951 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 1900 (Source values mapped to concept_id 0 by table, by column, by source_value) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 1900 (0.066202 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 2000 (Number of patients with at least 1 Dx and 1 Rx) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2000 (0.058703 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 2001 (Number of patients with at least 1 Dx and 1 Proc) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2001 (0.058552 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 2002 (Number of patients with at least 1 Meas, 1 Dx and 1 Rx) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2002 (0.060771 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 2003 (Number of patients with at least 1 Visit) -- START
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2003 (0.054535 secs)
+2026-04-23 07:22:28	[Main thread]	INFO	Achilles	achilles	Analysis 2004 (Number of distinct patients that overlap between specific domains) -- START
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2004 (0.860600 secs)
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	Analysis 2100 (Number of persons with at least one device exposure, by device_concept_id) -- START
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2100 (0.050992 secs)
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	Analysis 2101 (Number of device exposure records, by device_concept_id) -- START
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2101 (0.054498 secs)
+2026-04-23 07:22:29	[Main thread]	INFO	Achilles	achilles	Analysis 2102 (Number of persons by device records  start month, by device_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2102 (0.058651 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2104 (Number of persons with at least one device exposure, by device_concept_id by calendar year by gender by age decile) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2104 (0.050343 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2105 (Number of device exposure records, by device_concept_id by device_type_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2105 (0.055168 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2106 (Distribution of age by device_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2106 (0.190667 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2120 (Number of device_exposure records by device_exposure start month) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2120 (0.044535 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2125 (Number of device_exposure records by device_source_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2125 (0.043127 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2191 (Percentage of total persons that have at least x device exposures) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2191 (0.044143 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2200 (Number of persons with at least one note by  note_type_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2200 (0.046011 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	Analysis 2201 (Number of note records, by note_type_concept_id) -- START
+2026-04-23 07:22:30	[Main thread]	INFO	Achilles	achilles	[Main Analysis] [COMPLETE] 2201 (0.042927 secs)
+2026-04-23 07:22:30	[Main thread]	INFO	DatabaseConnector	insertTable.DatabaseConnectorJdbcConnection	Inserting data took 0.0365 secs
+2026-04-23 07:22:41	[Main thread]	INFO	Achilles	achilles	Merging scratch Achilles tables
+2026-04-23 07:22:41	[Main thread]	INFO	Achilles	achilles	Done. Achilles results can now be found in schema meiru_results
+2026-04-23 07:22:41	[Main thread]	INFO	Achilles	achilles	Dropping scratch Achilles tables from schema #
+2026-04-23 07:22:53	[Main thread]	TRACE	Achilles	dropAllScratchTables	Initiating cluster consisting only of main thread
+2026-04-23 07:22:58	[Main thread]	INFO	Achilles	achilles	Temporary Achilles tables removed from schema #
+2026-04-23 07:22:59	[Main thread]	INFO	Achilles	achilles	[Total Runtime] 1.637227 mins

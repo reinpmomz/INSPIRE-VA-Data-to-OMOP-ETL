@@ -1,0 +1,7 @@
+sourceCode,sourceName,sourceFrequency,sourceAutoAssignedConceptIds,ADD_INFO:row_number,ADD_INFO:dataset,ADD_INFO:variable_name,ADD_INFO:variable_description,matchScore,mappingStatus,equivalence,statusSetBy,statusSetOn,conceptId,conceptName,domainId,mappingType,comment,createdBy,createdOn,assignedReviewer
+2,5-14,1676,,109,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.59,APPROVED,EQUAL,Reinp,1770275505240,45883427,5 - 14 years old,Meas Value,MAPS_TO,,Reinp,1770275501154,
+4,25-39,4680,,111,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.69,APPROVED,EQUAL,Reinp,1770275483854,45883482,25 - 39 years old,Meas Value,MAPS_TO,,Reinp,1770275482480,
+3,15-24,1890,,110,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.71,APPROVED,EQUAL,Reinp,1770275456754,45876531,15 - 24 years old,Meas Value,MAPS_TO,,Reinp,1770275435699,
+5,40-64,7318,,112,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.78,APPROVED,EQUAL,Reinp,1770275167159,45881960,40 - 64 years old,Meas Value,MAPS_TO,,Reinp,1770275159699,
+1,Under 5,10119,,108,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.70,APPROVED,EQUAL,Reinp,1770274979978,45884506,Under 5 Years Old,Meas Value,MAPS_TO,,Reinp,1770274949985,
+6,65 and above,6616,,113,VA_INSPIRE_merged_final.csv,age_group_at_death,Age group at Death (Years),0.60,APPROVED,EQUAL,Reinp,1770275032860,45881961,65 years old or older,Meas Value,MAPS_TO,,Reinp,1770275030722,
