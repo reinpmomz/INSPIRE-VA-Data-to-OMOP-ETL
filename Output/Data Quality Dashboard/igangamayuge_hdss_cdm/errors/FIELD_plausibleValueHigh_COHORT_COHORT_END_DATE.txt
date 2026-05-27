@@ -62,15 +62,18 @@ Attached base packages:
 - base
 
 Other attached packages:
-- omopgenerics (1.3.7)
-- OmopSketch (1.0.1)
-- CDMConnector (2.5.0)
-- shiny (1.13.0)
+- magrittr (2.0.4)
+- DbDiagnostics (1.5.1)
+- ParallelLogger (3.5.1)
 - Achilles (1.8)
 - DataQualityDashboard (2.8.6)
 - CommonDataModel (1.0.1)
 - rJava (1.0-14)
 - SqlRender (1.19.4)
+- visOmopResults (1.4.2)
+- omopgenerics (1.3.7)
+- OmopSketch (1.0.1)
+- CDMConnector (2.5.0)
 - remotes (2.5.0)
 - glue (1.8.0)
 - DatabaseConnector (7.1.0)

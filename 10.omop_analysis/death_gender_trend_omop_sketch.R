@@ -1,4 +1,5 @@
 library(dplyr)
+library(stringr)
 library(omopgenerics)
 library(OmopSketch)
 library(visOmopResults)
@@ -49,7 +50,8 @@ death_gender_trend_omopsketch_plot_grid <- ggpubr::annotate_figure(
   ggpubr::ggarrange(plotlist = death_gender_trend_omopsketch_plot,
                     ncol = 3,
                     nrow = 2,
-                    labels = names(death_gender_trend_omopsketch_plot),
+                    labels = stringr::str_to_upper(stringr::str_replace_all(names(death_gender_trend_omopsketch_plot), "_cdm", "")
+                                                   ),
                     hjust = -0.5,
                     vjust = 0.5,
                     font.label = list(size = 12, color = "black", face = "bold", family = NULL),
