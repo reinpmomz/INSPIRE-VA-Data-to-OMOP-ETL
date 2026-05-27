@@ -49,7 +49,7 @@ After cloning the repository or downloading the ZIP, you also need the data file
 Open `RStudio` then set your working directory to the _INSPIRE-VA-Data-to-OMOP-ETL_ folder. 
 
 - To run individual files, open the `main.R` script, and run from the beginning.
-- 
+
 - Copy the code below to run all files at once in Rstudio
 
 ```
