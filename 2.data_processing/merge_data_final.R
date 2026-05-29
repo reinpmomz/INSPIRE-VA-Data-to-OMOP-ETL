@@ -32,8 +32,13 @@ df_final <- dplyr::bind_rows( df_match_merged_list
                                                )
                 , cause_of_death = stringr::str_to_lower(cause_of_death)
                 , va_date = if_else(is.na(va_date) & !cause_of_death %in% c("va not done", "autopsy not done")
-                                    , death_date + lubridate::days(sample(25:35, n(), replace = TRUE)), va_date
+                                    , death_date + lubridate::days(sample(35:45, n(), replace = TRUE)), va_date
                                     )
+                , va_done = ifelse(!is.na(va_date), "Yes", "No")
+                , time_to_va = round(lubridate::time_length(difftime(va_date, death_date, units = "auto")
+                                                              , unit = "day"
+                                                              ),2 #calculating timespan
+                                       )
                 , age_group_at_death = if_else(age_at_death < 5 , "Under 5",
                                                if_else(age_at_death < 15 , "5-14",
                                                        if_else(age_at_death < 25 , "15-24",
@@ -55,6 +60,8 @@ df_final <- dplyr::bind_rows( df_match_merged_list
                    , by = c("cause_of_death")
                    ) %>%
   labelled::set_variable_labels( #creating labels for new variables
+    va_done = "Verbal Autopsy Done",
+    time_to_va = "Number of Days from Death date taken to do Verbal Autopsy",
     age_group_at_death = "Age group at Death (Years)",
     cause_of_death_new = "Cause of death",
     general_cause_of_death = "General Cause of death"

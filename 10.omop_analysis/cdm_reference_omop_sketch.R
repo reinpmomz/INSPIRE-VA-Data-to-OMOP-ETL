@@ -1,5 +1,6 @@
 library(dplyr)
 library(omopgenerics)
+library(stringr)
 
 
 working_directory

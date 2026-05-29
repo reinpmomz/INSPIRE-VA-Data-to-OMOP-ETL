@@ -44,6 +44,13 @@ base::ifelse(!base::dir.exists(OMOPSketch_Dir), base::dir.create(OMOPSketch_Dir)
              "OMOP Sketch Sub Directory exists"
              )
 
+### create Output folder for Evidence Network
+EvidenceNetwork_Dir <- base::file.path(output_Dir, "Evidence_Network")
+
+base::ifelse(!base::dir.exists(EvidenceNetwork_Dir), base::dir.create(EvidenceNetwork_Dir),
+             "Evidence Network Sub Directory exists"
+             )
+
 ## Install required packages
 
 ### Install CRAN packages
@@ -66,7 +73,9 @@ if (base::any(installed_packages==FALSE)) {
 base::invisible(base::lapply(required_packages, library, character.only=TRUE))
 
 ### development packages
-required_dev_packages <- c("OHDSI/CommonDataModel", "OHDSI/DataQualityDashboard", "OHDSI/Achilles")
+required_dev_packages <- c("OHDSI/CommonDataModel", "OHDSI/DataQualityDashboard", "OHDSI/Achilles"
+                           , "OHDSI/DbDiagnostics"
+                           )
 required_dev_name_packages <- stringr::str_extract(required_dev_packages, '\\b[^/]+$')
 
 installed_dev_packages <- required_dev_name_packages %in% base::rownames(utils::installed.packages())

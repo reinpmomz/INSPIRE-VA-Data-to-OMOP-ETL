@@ -9,7 +9,7 @@ library(forcats)
 
 ## Clean dataset
 
-df_meiru_clean <- df_list[["VA_MEIRU - Malawi"]][["meiru_inspireAug23- version 2.dta"]] %>%
+df_meiru_clean <- df_list[["VA_MEIRU_Karonga_HDSS - Malawi"]][["meiru_inspireAug23- version 2.dta"]] %>%
   tidyr::drop_na(insilico_cod1) %>%
   dplyr::mutate(assetscore = as.factor(assetscore)
                 , across(where(is.factor), ~ forcats::fct_recode(.x, 

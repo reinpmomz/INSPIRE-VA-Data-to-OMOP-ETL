@@ -30,12 +30,13 @@ ORANGE2 <- "#FAC090"
 ### ggplot themes
 
 ggtheme_descriptive_plot <- function(angletext_yaxis=0, angletext_xaxis=0, textsize_yaxis=10, textsize_xaxis=10,
+                                     legendtext_size = 8, legendtitle_size = 8, legendtitle_colour = "red",
                                      striptext_size_x = 9, striptext_size_y = 9){
   theme_set(theme_minimal() +
               theme(
                 legend.position="bottom",
-                legend.text = element_text(size = 8),
-                legend.title = element_text(size = 8, color = "red", face = "bold", hjust = 0.5),
+                legend.text = element_text(size = legendtext_size),
+                legend.title = element_text(size = legendtitle_size, color = legendtitle_colour, face = "bold", hjust = 0.5),
                 axis.line.y = element_line(colour = "grey",inherit.blank = FALSE),
                 axis.line.x = element_line(colour = "grey",inherit.blank = FALSE),
                 axis.ticks.y = element_line(linewidth = 0.5, color="black"),

@@ -28,6 +28,7 @@ source("./1.setup/helperfuns_read_excel_sheets.R")
 source("./1.setup/helperfuns_gt_summary_themes.R")
 source("./1.setup/helperfuns_table_summary_categorical.R")
 source("./1.setup/helperfuns_ggplot_themes.R")
+source("./1.setup/helperfuns_executeDbProfile_new.R")
 
 ################################################################################
 
@@ -197,8 +198,8 @@ ParallelLogger::launchLogViewer(
   )
 
 ParallelLogger::launchLogViewer(
-  logFileName = base::file.path(base::file.path(DQD_Dir, "meiru_cdm"),  
-                                paste0("log_DqDashboard_",cdm_source_cdm_table[["meiru_cdm"]]$cdm_source_abbreviation, ".txt"))
+  logFileName = base::file.path(base::file.path(DQD_Dir, "meiru_karonga_hdss_cdm"),  
+                                paste0("log_DqDashboard_",cdm_source_cdm_table[["meiru_karonga_hdss_cdm"]]$cdm_source_abbreviation, ".txt"))
   )
 
 #VIEW RESULTS
@@ -209,7 +210,7 @@ DataQualityDashboard::viewDqDashboard(base::file.path(base::file.path(DQD_Dir, "
 
 DataQualityDashboard::viewDqDashboard(base::file.path(base::file.path(DQD_Dir, "nuhdss_cdm"), "nuhdss_cdm_results.json"))
 
-DataQualityDashboard::viewDqDashboard(base::file.path(base::file.path(DQD_Dir, "meiru_cdm"), "meiru_cdm_results.json"))
+DataQualityDashboard::viewDqDashboard(base::file.path(base::file.path(DQD_Dir, "meiru_karonga_hdss_cdm"), "meiru_karonga_hdss_cdm_results.json"))
 
 DataQualityDashboard::viewDqDashboard(base::file.path(base::file.path(DQD_Dir, "igangamayuge_hdss_cdm"), "igangamayuge_hdss_cdm_results.json"))
 
@@ -288,12 +289,42 @@ source("./10.omop_analysis/death_agegroup_trend_omop_sketch.R")
 
 ################################################################################
 
+#12. Evidence Network Study
+
+#Designed to characterize the data sources in the network
+##result in a resource to connect researchers with questions to data partner organizations who have data
+
+##Creates a profile of an individual database that has been converted to the OMOP Common Data Model.
+## This profile consists of aggregated summary statistics and data quality results.
+#Allows a user to use the profile of a database to determine if that database has the elements necessary
+## required to answer clinical questions of interest.
+
+#Connecting to local database using connection object
+con <- dbConnect(drv = RPostgres::Postgres(),
+                 dbname = database_name, 
+                 host = 'localhost', 
+                 port = 5432, 
+                 user = 'postgres',
+                 password = Sys.getenv("postgres_password")
+                 #password = rstudioapi::askForPassword("Database password")
+                 )
+print(con)
+
+## Create Network result Schema
+
+source("./12.evidence_network_study/create_network_results_schema.R")
+DBI::dbDisconnect(con)
+
+source("./12.evidence_network_study/evidence_network.R")
+
+################################################################################
+
 ## Save workspace at the end without working directory path
 
 save(list = ls(all.names = TRUE)[!ls(all.names = TRUE) %in% c("working_directory", "mainDir", "data_Dir", "output_Dir"
                                                               ,"Rdata_files", "executeDDL_Error_Dir", "Achilles_Analysis_Dir"
                                                               , "DQD_Dir", "OMOPSketch_Dir", "cdm_reference", "con"
-                                                              , "cd_dqd", "cd_achilles"
+                                                              , "cd_dqd", "cd_achilles", "EvidenceNetwork_Dir", "cd_evdnet"
                                                               )],
      file = "gbd_analysis.RData",
      envir = .GlobalEnv #parent.frame()

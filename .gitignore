@@ -16,3 +16,6 @@
 # csv files
 *.csv
 !5.usagi_concept/*.csv
+
+# folders
+Output/Evidence_Network/*
