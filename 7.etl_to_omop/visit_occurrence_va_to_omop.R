@@ -14,7 +14,8 @@ visit_occurrence_cdm_table <-
   
   visit_occurrence_table <- df_final %>%
     dplyr::filter(site_name %in% hdss_id) %>%
-    tidyr::drop_na(va_date) %>% #If no va_date is available, the record should be dropped from the CDM instance.
+    dplyr::filter(va_done %in% c("Yes")) %>% #If va was not done, the record should be dropped from the CDM instance.
+    #tidyr::drop_na(va_date) %>% #If no va_date is available, the record should be dropped from the CDM instance.
     dplyr::inner_join( person_cdm_table[[nn]] %>%
                          dplyr::select(person_id, person_source_value, provider_id, care_site_id),
                        by = c("individual_id" = "person_source_value")

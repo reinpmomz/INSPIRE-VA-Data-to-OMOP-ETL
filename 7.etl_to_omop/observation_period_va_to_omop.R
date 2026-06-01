@@ -18,7 +18,8 @@ observation_period_cdm_table <-
                          dplyr::select( person_id, person_source_value),
                        by = c("individual_id"= "person_source_value")
                        ) %>%
-    tidyr::drop_na(va_date) %>% #If no va_date is available, the record should be dropped from the CDM instance.
+    dplyr::filter(va_done %in% c("Yes")) %>% #If va was not done, the record should be dropped from the CDM instance.
+    #tidyr::drop_na(va_date) %>% #If no va_date is available, the record should be dropped from the CDM instance.
     tidyr::drop_na(death_date) %>% #If no death date is available, the record should be dropped from the CDM instance.
     dplyr::mutate(observation_period_id = dplyr::row_number()
                   , period_type_concept_id = 32883
