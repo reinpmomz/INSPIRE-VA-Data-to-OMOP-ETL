@@ -35,6 +35,7 @@ df_final <- dplyr::bind_rows( df_match_merged_list
                                     , death_date + lubridate::days(sample(35:45, n(), replace = TRUE)), va_date
                                     )
                 , va_done = ifelse(!is.na(va_date), "Yes", "No")
+                , va_done = as.factor(va_done)
                 , time_to_va = round(lubridate::time_length(difftime(va_date, death_date, units = "auto")
                                                               , unit = "day"
                                                               ),2 #calculating timespan

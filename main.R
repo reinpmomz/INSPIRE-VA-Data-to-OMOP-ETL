@@ -27,6 +27,7 @@ source("./1.setup/requirements.R")
 source("./1.setup/helperfuns_read_excel_sheets.R")
 source("./1.setup/helperfuns_gt_summary_themes.R")
 source("./1.setup/helperfuns_table_summary_categorical.R")
+source("./1.setup/helperfuns_effect_size.R")
 source("./1.setup/helperfuns_ggplot_themes.R")
 source("./1.setup/helperfuns_executeDbProfile_new.R")
 
@@ -224,9 +225,14 @@ source("./9.achilles_results/achilles_analysis.R")
 
 ################################################################################
 
-#10.OMOP Analysis
+#10. Atlas Analysis
+## Installation and Configuration Guide: WSL, Docker, OHDSI Broadsea, PgAdmin Container, and ATLAS WebAPI
+
+################################################################################
+
+#11.OMOP Analysis
 #summary of records in OMOP-tables
-source("./10.omop_analysis/summary_OMOP_records.R")
+source("./11.omop_analysis/summary_OMOP_records.R")
 
 #Connecting to local database using connection object
 con <- dbConnect(drv = RPostgres::Postgres(),
@@ -242,50 +248,49 @@ print(con)
 vocabulary_schema_name <- "vocabulary"
 
 #Loading and saving vocabulary schema (concept table) in Postgres to environment
-source("./10.omop_analysis/read_vocabulary_schema_concept_table.R")
+source("./11.omop_analysis/read_vocabulary_schema_concept_table.R")
 DBI::dbDisconnect(con)
 
 #summary of vocabs in OMOP-tables
-source("./10.omop_analysis/summary_OMOP_vocabs.R")
-source("./10.omop_analysis/summary_OMOP_vocabs_study.R")
+source("./11.omop_analysis/summary_OMOP_vocabs.R")
+source("./11.omop_analysis/summary_OMOP_vocabs_study.R")
 
 # OMOP-CDM Sketch
 ## Since we have one vocabulary schema, we will be creating a cdm_reference object from tables rather than from the local
 ## database (cdmFromCon)
-source("./10.omop_analysis/cdm_reference_omop_sketch.R")
+source("./11.omop_analysis/cdm_reference_omop_sketch.R")
 
 ## Once we have the cdm_reference object we can start characterising it
 ## create a snapshot of our database. 
 ## This allows us to track when the analysis has been conducted and capture details about CDM version or the data release.
-source("./10.omop_analysis/snapshot_omop_sketch.R")
+source("./11.omop_analysis/snapshot_omop_sketch.R")
 
 ## Once we have collected the snapshot information, we can characterise the person table
-source("./10.omop_analysis/person_omop_sketch.R")
+source("./11.omop_analysis/person_omop_sketch.R")
 
 ## Characterise the observation period
-source("./10.omop_analysis/observation_period_omop_sketch.R")
+source("./11.omop_analysis/observation_period_omop_sketch.R")
 
 ## Characterise the clinical tables
 ## "visit_occurrence", "visit_detail", "condition_occurrence", "drug_exposure", "procedure_occurrence", "device_exposure"
 ## "measurement", "observation", "death", "note", "specimen", "payer_plan_period", "drug_era", "dose_era", "condition_era"
-source("./10.omop_analysis/clinical_tables_omop_sketch.R")
+source("./11.omop_analysis/clinical_tables_omop_sketch.R")
 
 ## Characterise concepts in the clinical tables
 top_concepts <- 15
-source("./10.omop_analysis/concepts_overall_clinical_tables_omop_sketch.R")
-source("./10.omop_analysis/concepts_overall_gender_clinical_tables_omop_sketch.R")
-source("./10.omop_analysis/concepts_overall_agegroup_clinical_tables_omop_sketch.R")
-source("./10.omop_analysis/concepts_yearly_clinical_tables_omop_sketch.R")
+source("./11.omop_analysis/concepts_overall_clinical_tables_omop_sketch.R")
+source("./11.omop_analysis/concepts_overall_gender_clinical_tables_omop_sketch.R")
+source("./11.omop_analysis/concepts_overall_agegroup_clinical_tables_omop_sketch.R")
+source("./11.omop_analysis/concepts_yearly_clinical_tables_omop_sketch.R")
 
 ## Explore trends over time for death table
-source("./10.omop_analysis/death_gender_trend_omop_sketch.R")
-source("./10.omop_analysis/death_agegroup_trend_omop_sketch.R")
+source("./11.omop_analysis/death_gender_trend_omop_sketch.R")
+source("./11.omop_analysis/death_agegroup_trend_omop_sketch.R")
 
-################################################################################
-
-#11. Atlas Analysis
-## Installation and Configuration Guide: WSL, Docker, OHDSI Broadsea, PgAdmin Container, and ATLAS WebAPI
-
+## descriptive comparison of source and atlas data
+source("./11.omop_analysis/source_atlas_data_cleaning.R")
+source("./11.omop_analysis/source_atlas_descriptive_inferential_stats.R")
+source("./11.omop_analysis/source_atlas_effect_size_stats.R")
 
 ################################################################################
 
