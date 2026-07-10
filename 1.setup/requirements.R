@@ -58,7 +58,7 @@ required_packages <- c("tidyverse", "haven", "janitor", "knitr", "kableExtra", "
                        "labelled", "sjlabelled", "officer", "gridExtra", "ggpubr", "rstatix","scales", "readxl",
                        "writexl", "checkmate", "ggstats", "webr", "data.table", "cowplot", "tibble", 
                        "RPostgres", "DBI", "devtools", "DatabaseConnector", "glue", "remotes",
-                       "CDMConnector", "OmopSketch", "omopgenerics", "visOmopResults" 
+                       "CDMConnector", "OmopSketch", "omopgenerics", "visOmopResults", "checkmate" 
                        )
 
 installed_packages <- required_packages %in% base::rownames(utils::installed.packages())

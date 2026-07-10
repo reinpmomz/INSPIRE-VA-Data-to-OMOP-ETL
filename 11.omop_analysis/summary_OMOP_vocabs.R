@@ -44,9 +44,9 @@ writexl::write_xlsx(list(summary_vocabs_merge = summary_OMOP_vocabs_merge
                          ,count_vocabs_unique = summary_OMOP_vocabs_merge %>%
                            dplyr::select(-c(name, table)) %>%
                            dplyr::distinct() %>%
-                           dplyr::mutate(vocabulary = if_else(vocabulary_id == "INSPIRE", "Local", "Standard")
-                                         , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard and Valid",
-                                                                if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard and Valid",
+                           dplyr::mutate(vocabulary = if_else(vocabulary_id %in% c("INSPIRE"), "Local", "Standard")
+                                         , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard",
+                                                                if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard but Valid",
                                                                         vocabulary
                                                                         )
                                                                 )
@@ -66,9 +66,9 @@ writexl::write_xlsx(list(summary_vocabs_merge = summary_OMOP_vocabs_merge
 summary_OMOP_vocabs_unique_plot <- summary_OMOP_vocabs_merge %>%
   dplyr::select(-c(name, table)) %>%
   dplyr::distinct() %>%
-  dplyr::mutate(vocabulary = if_else(vocabulary_id == "INSPIRE", "Local", "Standard")
-                , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard and Valid",
-                                       if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard and Valid",
+  dplyr::mutate(vocabulary = if_else(vocabulary_id %in% c("INSPIRE"), "Local", "Standard")
+                , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard",
+                                       if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard but Valid",
                                                vocabulary
                                               )
                                        )
