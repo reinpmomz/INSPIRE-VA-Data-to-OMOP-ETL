@@ -24,6 +24,7 @@ df_atlas <- sapply(as.character(unique(df_final$site_name)), function(x){
   death <- person %>%
     dplyr::left_join(df %>%
                        tidyr::drop_na(death_date) %>%
+                       dplyr::filter(va_done %in% c("Yes")) %>%
                        dplyr::select(individual_id, cause_of_death_new)
                      , by = c("individual_id")
                      )

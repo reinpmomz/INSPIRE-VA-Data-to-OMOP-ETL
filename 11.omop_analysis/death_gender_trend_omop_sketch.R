@@ -18,7 +18,7 @@ death_gender_trend_omopsketch_plot <-
     
     snapshot <- OmopSketch::summariseTrend(cdm = cdm_reference[[nn]]
                                            , event = c("death")
-                                           , episode = NULL #"observation_period"
+                                           , episode = NULL #"observation_period", "visit_occurence", NULL
                                            , output = "record" #record" (default), "person", "person-days", "age", "sex"
                                            , interval = "years" #"years", "quarters", "months" or "overall"
                                            , ageGroup = NULL
@@ -67,7 +67,7 @@ death_gender_trend_omopsketch_plot_grid <- ggpubr::annotate_figure(
 print(death_gender_trend_omopsketch_plot_grid)
 
 ## save plot output
-ggsave(plot=death_gender_trend_omopsketch_plot_grid, height = 7.5, width = 16,
+ggsave(plot=death_gender_trend_omopsketch_plot_grid, height = 7.5, width = 12,
        filename = paste0("death_gender_trend_omopsketch_plot",".png"),
        path = OMOPSketch_Dir, bg='white')
 
