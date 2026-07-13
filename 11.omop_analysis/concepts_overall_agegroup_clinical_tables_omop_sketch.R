@@ -26,7 +26,7 @@ concepts_overall_agegroup_clinical_tables_omopsketch <-
                                                              , "15-24" = c(15, 24), "25-39" = c(25, 39)
                                                              , "40-64" = c(40, 64), "65 and above" = c(65, Inf)
                                                              ) #NULL
-                                                     , inObservation = FALSE
+                                                     , inObservation = TRUE #whether each record occurs within observation period or not
                                                      , sample = NULL
                                                      , dateRange = NULL
                                                      )

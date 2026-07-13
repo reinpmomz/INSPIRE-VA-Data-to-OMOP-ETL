@@ -23,7 +23,7 @@ concepts_overall_gender_clinical_tables_omopsketch <-
                                                      , interval = "overall" #"years", "quarters", "months" or "overall"
                                                      , sex = TRUE
                                                      , ageGroup = NULL
-                                                     , inObservation = FALSE
+                                                     , inObservation = TRUE #whether each record occurs within observation period or not
                                                      , sample = NULL
                                                      , dateRange = NULL
                                                      )

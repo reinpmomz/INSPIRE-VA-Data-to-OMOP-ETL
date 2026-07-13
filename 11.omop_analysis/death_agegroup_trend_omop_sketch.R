@@ -18,7 +18,7 @@ death_agegroup_trend_omopsketch_plot <-
     
     snapshot <- OmopSketch::summariseTrend(cdm = cdm_reference[[nn]]
                                            , event = c("death")
-                                           , episode = NULL #"observation_period"
+                                           , episode = NULL #"observation_period", "visit_occurence", NULL
                                            , output = "record" #record" (default), "person", "person-days", "age", "sex"
                                            , interval = "years" #"years", "quarters", "months" or "overall"
                                            , ageGroup = list("Under 5" = c(0, 4), "5-14" = c(5, 14)
