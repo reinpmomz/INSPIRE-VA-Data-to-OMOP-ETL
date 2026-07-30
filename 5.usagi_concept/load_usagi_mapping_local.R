@@ -18,11 +18,11 @@ df_usagi_list <- sapply(usagi_files, function(x){
 ## Filter only APPROVED concepts
 df_usagi_merge_approved <- dplyr::bind_rows(df_usagi_list) %>%
   dplyr::filter(mappingStatus == "APPROVED") %>%
-  dplyr::select(any_of(c("sourceName", "ADD_INFO:variable_name", "conceptId"))
+  dplyr::select(any_of(c("sourceName", "ADD_INFO:variable_name", "conceptId", "createdBy"))
                 )
   
 df_usagi_merge_others <- dplyr::bind_rows(df_usagi_list) %>%
   dplyr::filter(mappingStatus != "APPROVED") %>%
-  dplyr::select(any_of(c("sourceName", "ADD_INFO:variable_name", "conceptId"))
+  dplyr::select(any_of(c("sourceName", "ADD_INFO:variable_name", "conceptId", "createdBy"))
                 )
 

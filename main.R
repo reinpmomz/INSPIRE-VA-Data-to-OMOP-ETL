@@ -255,6 +255,9 @@ DBI::dbDisconnect(con)
 source("./11.omop_analysis/summary_OMOP_vocabs.R")
 source("./11.omop_analysis/summary_OMOP_vocabs_study.R")
 
+#Summary of Usagi Automation
+source("./11.omop_analysis/summary_Usagi_Automation_OMOP_vocabs.R")
+
 # OMOP-CDM Sketch
 ## Since we have one vocabulary schema, we will be creating a cdm_reference object from tables rather than from the local
 ## database (cdmFromCon)

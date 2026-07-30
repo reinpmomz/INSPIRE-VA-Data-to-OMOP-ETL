@@ -38,20 +38,22 @@ summary_OMOP_vocabs_merge <- dplyr::bind_rows(summary_OMOP_vocabs) %>%
                    ,by = c("value"="concept_id")
                    )
 
+summary_OMOP_vocabs_merge_unique <- summary_OMOP_vocabs_merge %>%
+  dplyr::select(-c(name, table)) %>%
+  dplyr::distinct() %>%
+  dplyr::mutate(vocabulary = if_else(vocabulary_id %in% c("INSPIRE"), "Local", "Standard")
+                , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard",
+                                       if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard but Valid",
+                                               vocabulary
+                                               )
+                                       )
+                , across(c(domain_id, vocabulary), ~as.factor(.x))
+                )
+
 ## Save the output 
 
 writexl::write_xlsx(list(summary_vocabs_merge = summary_OMOP_vocabs_merge
-                         ,count_vocabs_unique = summary_OMOP_vocabs_merge %>%
-                           dplyr::select(-c(name, table)) %>%
-                           dplyr::distinct() %>%
-                           dplyr::mutate(vocabulary = if_else(vocabulary_id %in% c("INSPIRE"), "Local", "Standard")
-                                         , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard",
-                                                                if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard but Valid",
-                                                                        vocabulary
-                                                                        )
-                                                                )
-                                         , across(c(domain_id, vocabulary), ~as.factor(.x))
-                                         ) %>%
+                         ,count_vocabs_unique = summary_OMOP_vocabs_merge_unique %>%
                            dplyr::select(value, domain_id, vocabulary) %>%
                            dplyr::group_by(domain_id, vocabulary) %>%
                            dplyr::count(name = "total") %>%
@@ -63,17 +65,7 @@ writexl::write_xlsx(list(summary_vocabs_merge = summary_OMOP_vocabs_merge
 
 # Plot of Unique vocab Domains
 
-summary_OMOP_vocabs_unique_plot <- summary_OMOP_vocabs_merge %>%
-  dplyr::select(-c(name, table)) %>%
-  dplyr::distinct() %>%
-  dplyr::mutate(vocabulary = if_else(vocabulary_id %in% c("INSPIRE"), "Local", "Standard")
-                , vocabulary = if_else(vocabulary == "Standard" & standard_concept %in% c("S") , "Standard",
-                                       if_else(vocabulary == "Standard" & is.na(standard_concept), "Non-Standard but Valid",
-                                               vocabulary
-                                              )
-                                       )
-                , across(c(domain_id, vocabulary), ~as.factor(.x))
-                ) %>%
+summary_OMOP_vocabs_unique_plot <- summary_OMOP_vocabs_merge_unique %>%
   dplyr::select(value, domain_id, vocabulary) %>%
   ggplot(aes(x= forcats::fct_rev(forcats::fct_infreq(domain_id)), group=vocabulary)) +
   coord_flip() +
