@@ -91,15 +91,32 @@ source("./5.usagi_concept/load_usagi_mapping_local.R")
 ################################################################################
 
 #7.ETL-TO-OMOP
-## First Create a database in postgres named "va_inspire"
-
-## Connecting to local database using DBI package
 
 #file.edit("~/.Renviron") store password credentials for postgres in .Renviron and retrieve with Sys.getenv()
 #usethis::edit_r_environ()
 #restart R
 
+## First Create a database in postgres named "va_inspire"
+
 database_name <- "va_inspire"
+
+## Connect to default postgres database
+con <- dbConnect(
+  drv = RPostgres::Postgres(),
+  dbname = "postgres",
+  host = "localhost",
+  port = 5432,
+  user = "postgres",
+  password = Sys.getenv("postgres_password")
+)
+
+print(con)
+
+source("./7.etl_to_omop/create_database.R")
+
+dbDisconnect(con)
+
+## Connect to "va_inspire" database
 
 con <- dbConnect(drv = RPostgres::Postgres(),
                  dbname = database_name, 
